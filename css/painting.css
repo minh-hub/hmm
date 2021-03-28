@@ -11,8 +11,10 @@ body{
 
 section{
     width: 10000px;
-    height: 100vh;
+    height: 100%;
     background-color: white;
+    display:flex;
+    justify-content:flex-start;
 }
 ::-webkit-scrollbar {
     height: 5px;
@@ -28,7 +30,72 @@ section{
     border-radius: 10px;
 }
 .banner{
+background-color:dimgray;
+left: 0;
+position:-webkit-sticky;
+position:sticky;
+width:150px;
 height:1000px;
+padding: 20px;
+font-size:30px;
+}
+.banner a{
+    background-color:dimgray;
+  color:white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.banner a:hover {
+    cursor: auto;
 
-
+    transform: scale(1.5);
+    
+    }
+.banner a:active {
+    background-color:white;
+    color:black;
+}
+.banner ul{
+    list-style: none;
+    margin:20px;
+    
+}
+.banner li{
+    margin-top:30px;
+    color:white;
+}
+.content{
+    margin:30px;
+    display:flex;
+    justify-content:flex-start;
+}
+.title{
+    font-size:75px;
+}
+.box1{
+    padding:20px;
+    margin-top:20px;
+    margin-left:75px;
+    margin-right:75px;
+    height:370px;
+    width:250px;
+    border-radius:20%;
+    background-color:dimgray;
+    text-align:center;
+}
+.box2{
+    padding:20px;
+    margin-top:100px;
+    margin-left:75px;
+    margin-right:75px;
+    height:370px;
+    width:250px;
+    border-radius:20%;
+    background-color:dimgray;
+    text-align:center;
+}
+.title a{
+    color:black;
+    font-size:20px;
 }

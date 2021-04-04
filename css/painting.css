@@ -34,22 +34,25 @@ background-color:dimgray;
 left: 0;
 position:-webkit-sticky;
 position:sticky;
-width:150px;
+width:250px;
 height:1000px;
-padding: 20px;
+padding: 10px;
 font-size:30px;
 }
 .banner a{
+    border-radius: 40px;
     background-color:dimgray;
   color:white;
   display: block;
-  padding: 12px;
+  padding: 20px;
   text-decoration: none;
+  transition:1s;
 }
 .banner a:hover {
+    width:150px;
     cursor: auto;
-
-    transform: scale(1.5);
+    transition-duration:1s;
+    transform:translateX(20px);
     
     }
 .banner a:active {
@@ -80,7 +83,6 @@ font-size:30px;
     margin-right:75px;
     height:370px;
     width:250px;
-    border-radius:20%;
     background-color:dimgray;
     text-align:center;
 }
@@ -91,11 +93,26 @@ font-size:30px;
     margin-right:75px;
     height:370px;
     width:250px;
-    border-radius:20%;
     background-color:dimgray;
     text-align:center;
 }
 .title a{
     color:black;
     font-size:20px;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: none;
+    margin-right:10px;
+    padding: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transition:1s;
+}
+
+ul>li>a:hover > i{
+    transition:1s;
+    display: inline-block;
+    
 }

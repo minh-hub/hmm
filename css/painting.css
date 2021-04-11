@@ -124,6 +124,47 @@ ul>li>a:hover > i{
     height:370px;
     width:250px;
 }
+/* .hide{
+    display:none;
+}
+.box1:hover+ .hide{
+    padding:10px;
+    margin-top:390px;
+    margin-left:75px;
+    margin-right:75px;
+    display:block;
+    height:100px;
+    width:250px;
+    background-color:dimgray;
+    text-align:center;
+} 
+.giantbox{
+    display:flex;
+} */
+.giantbox{
+    padding:10px;
+    margin-top:20px;
+    margin-left:75px;
+    margin-right:75px;
+    transition:1s;
+    height:370px;
+    width:250px;
+
+}
+.giantbox:hover .hide{
+ display:block;
+ background-color: dimgray;
+ margin-top:10px;
+ width:250px;
+ margin-left:75px;
+ margin-right:75px;
+ transition:3s;
+ text-align:center;
+ height:50px;
+ padding:10px;
+
+
+}
 .hide{
     display:none;
 }

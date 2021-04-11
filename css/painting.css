@@ -77,7 +77,7 @@ font-size:30px;
     font-size:75px;
 }
 .box1{
-    padding:20px;
+    padding:10px;
     margin-top:20px;
     margin-left:75px;
     margin-right:75px;
@@ -87,7 +87,7 @@ font-size:30px;
     text-align:center;
 }
 .box2{
-    padding:20px;
+    padding:10px;
     margin-top:100px;
     margin-left:75px;
     margin-right:75px;
@@ -115,4 +115,15 @@ ul>li>a:hover > i{
     transition:1s;
     display: inline-block;
     
+}
+.box1 img{
+    height:370px;
+    width:250px;
+}
+.box2 img{
+    height:370px;
+    width:250px;
+}
+.hide{
+    display:none;
 }

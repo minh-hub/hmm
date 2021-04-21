@@ -160,11 +160,15 @@ ul>li>a:hover > i{
  margin-right:75px;
  transition:3s;
  text-align:center;
- height:50px;
+ height:70px;
  padding:10px;
 
 
 }
 .hide{
     display:none;
+}
+.card{
+    margin-left:150px;
+    width:500px;
 }

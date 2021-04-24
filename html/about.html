@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="/css/painting.css">
+    <link rel="stylesheet" href="/css/painting2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
+<style>
+    
+</style>
+<title>Arteberry</title>
 </head>
 <body>
     <section style="width: 100%;">
@@ -26,12 +30,6 @@
                 </div>
                 <br><br><br>
                 <div class="card">
-                    <h1 style="font-size:35px">
-                        Our concept
-                    </h1>
-                    <p style="font-size:25">
-                        We are here simply to share images of exotic places from communities that you might have not heard of.
-                    </p>
                     <br><br><Br><br><br><br><br>
                      <h1 style="font-size:35px">
                         Our inspiration
@@ -43,16 +41,30 @@
                     <h1 style="font-size:35px">
                         For more information, contact:
                     </h1>
-                    <p style="font-size:25">
-                        <b>Kiet:</b><br>Email: onepoppyboi27@gmail.com
-                        <br><br>
-                        <b>Minh:</b><br>Email: ngocminhwis@gmail.com
-                    </p>
+                    
+                        <p style="font-size:25">
+                            <b>Kiet:</b><br>Email:
+                            <input type="text" value="onepoppyboi27@gmail.com" id="myInput">
+                            <button onclick="myFunction()">Copy email</button>
+                            <br><br>
+                            <b>Minh:</b><br>Email:	
+                            <input type="text" value="ngocminhwis@gmail.com" id="myInput">
+                            <button onclick="myFunction()">Copy email</button>
+                        </p>
+                    
                     <br><br><Br>
                 </div>
             </div>
         </div>
-        <div></div>
+        <script>
+            function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied email: " + copyText.value);
+}
+        </script>
     </section>
 </body>
 </html>

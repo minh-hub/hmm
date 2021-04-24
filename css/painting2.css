@@ -207,10 +207,11 @@ ul>li:hover i {
 }
 
 #textblock {
-    font-weight: lighter;
+    
     position: relative;
     bottom: 150px;
     left: 60px;
+    width:225px;
 }
 
 #showcase {
@@ -345,4 +346,15 @@ ul>li:hover i {
     bottom: 49px;
     left: 100px;
     cursor: url(bigblack.cur), default;
+}
+#hello{
+    margin-top:50px;
+    margin-left:400px;
+}
+#welcomeblock2 {
+    margin-left:75px;
+    margin-top:175px;
+    width: 400px;
+    height: 100vh;
+    background-color: transparent;
 }

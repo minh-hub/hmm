@@ -358,3 +358,11 @@ ul>li:hover i {
     height: 100vh;
     background-color: transparent;
 }
+button{
+    width:85px;
+    height:30px;
+    border-radius:20px;
+    background-color:none;
+    border:black;
+
+}
